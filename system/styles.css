@@ -1,0 +1,147 @@
+.nobr {
+    white-space: nowrap;
+}
+
+/**
+ Mobile styles
+ */
+@media  {
+    #Glory img {
+        max-width: 90%;
+    }
+    .person img {
+        max-width: 60%;
+    }
+    .fancybox-content {
+        max-width: 80%;
+    }
+    #Glory ul li {
+        list-style: none;
+    }
+    .person {
+        border-bottom: #cccccc 1px solid;
+    }
+}
+
+/**
+ Desktop styles
+ */
+@media (min-width: 640px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #f8f8f0;
+        color: #555;
+        text-align: center;
+    }
+
+    #Wrapper {
+        background: #e3e3e3;
+        width: 1000px;
+    }
+
+    h1 {
+        font: bold small-caps 16pt/24pt sans-serif;
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    #Header {
+        box-shadow: inset 0px 37px 0px #ffffff, inset 0px 74px 0px #0000ee, inset 0px 111px 0px #ee0000;
+        margin-top: 10px;
+        margin-bottom: 38px;
+        padding-top: 3px;
+    }
+
+    #Monument p {
+        font: normal 12pt/18pt sans-serif;
+        margin: 28px;
+        text-align: justify;
+    }
+
+    #Monument img {
+        margin: 18px;
+        margin-top: 8px;
+    }
+
+    ul {
+        background: #999999;
+        margin: 28px;
+        margin-top: 8px;
+        margin-bottom: 38px;
+        padding: 18px;
+        text-align: left;
+        overflow: hidden;
+        width: 944px;
+    }
+
+    li {
+        float: left;
+        font: small-caps 12pt/20pt sans-serif;
+        color: #ffff00;
+        list-style-type: none;
+        width: 180px;
+    }
+
+    #Glory img {
+        max-width: 460px;
+    }
+
+    #Spacer {
+        clear: left;
+        box-shadow: inset 0px 16px 0px #000000, inset 0px 32px 0px #ff9933, inset 0px 48px 0px #000000, inset 0px 64px 0px #ff9933, inset 0px 80px 0px #000000;
+        margin-top: 48px;
+    }
+
+    #Spacer img {
+        position: relative;
+        top: -14px;
+    }
+
+    #Veter {
+        padding: 18px;
+        overflow: hidden;
+    }
+
+    .person {
+        background: #eeeeee;
+        border-bottom: 1pt solid #555555;
+        color: #333333;
+        font: 9pt/12pt sans-serif;
+        float: left;
+        height: 360px;
+        width: 192px;
+    }
+
+    .person img {
+        max-width: 135px;
+    }
+
+    .name {
+        margin-top: 12pt;
+        margin-bottom: 6pt;
+        font: bold 9pt/14pt sans-serif;
+        font-weight: bold;
+    }
+
+    .rank {
+        margin-top: 6pt;
+        margin-bottom: 2pt;
+    }
+
+    .line {
+        color: #c90000;
+        margin-left: 8pt;
+        margin-right: 8pt;
+    }
+
+    #Footer {
+        margin-top: 18px;
+        background: #8f8f5f;
+        text-align: right;
+    }
+}
